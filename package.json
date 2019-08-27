@@ -1,0 +1,25 @@
+{
+  "name": "@ssttevee/formdata-ponyfill",
+  "type": "module",
+  "version": "0.1.0",
+  "main": "lib/index.js",
+  "files": [
+    "lib/**/*"
+  ],
+  "scripts": {
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ssttevee/js-formdata-ponyfill"
+  },
+  "keywords": [
+    "esm",
+    "formdata"
+  ],
+  "author": "ssttevee",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^3.5.3"
+  }
+}
