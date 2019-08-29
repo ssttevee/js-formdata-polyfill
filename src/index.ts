@@ -117,7 +117,7 @@ export default class implements FormData {
     }
 
     public *entries(): IterableIterator<[string, FormDataEntryValue]> {
-        return this[Symbol.iterator]();
+        yield* this[Symbol.iterator]();
     }
 
     public *keys(): IterableIterator<string> {
