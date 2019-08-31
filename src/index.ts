@@ -14,7 +14,7 @@ export default class implements FormData {
     private [$$entries]: DataEntry[] = [];
     private [$$table]: LookupTable = {};
 
-    constructor(form: HTMLFormElement) {
+    constructor(form?: HTMLFormElement) {
         if (!form) {
             return;
         }
