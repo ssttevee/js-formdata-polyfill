@@ -9,6 +9,7 @@
         "outDir": "lib",
         "declaration": true,
         "strict": true,
+        "stripInternal": true,
     },
     "include": [
         "src/**/*.ts",

@@ -11,8 +11,8 @@ const $$entries = Symbol('entries');
 const $$table = Symbol('table');
 
 export default class implements FormData {
-    private [$$entries]: DataEntry[] = [];
-    private [$$table]: LookupTable = {};
+    /** @internal */ private [$$entries]: DataEntry[] = [];
+    /** @internal */ private [$$table]: LookupTable = {};
 
     constructor(form?: HTMLFormElement) {
         if (!form) {
